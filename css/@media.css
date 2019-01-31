@@ -1,0 +1,56 @@
+/* @MEDIA -------------------------------------------------- */
+
+/* Screens greater then 1024 */
+@media only screen and (min-width : 1025px) {
+  header>menu.navbar>.title{
+    font-size:36px;
+  }
+
+  .container {
+    grid-template-columns:repeat(auto-fill, minmax(150px,300px));
+    justify-content:center;
+  }
+
+
+
+}
+
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width : 1024px) {
+
+  header>menu.navbar>.title{
+    font-size:36px;
+  }
+
+  .container {
+    grid-template-columns:repeat(auto-fill, minmax(150px,300px));
+    justify-content:center;
+  }
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+
+  header>menu.navbar>.title{
+    font-size:30px;
+  }
+
+  .container {
+    grid-template-columns:repeat(auto-fill, minmax(150px,500px));
+    justify-content:center;
+  }
+
+
+}
+
+/* Custom, Tiny */ 
+@media only screen and (max-width : 320px) {
+  header>menu.navbar>.title{
+    font-size:26px;
+  }
+
+
+
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bank Of America - Grocery List Project</title>
+  <meta name="author" content="Michael Oakley">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="./js/main.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+<body>
+
+  <!-- BACKGROUND ============================================ -->
+  <div class="background"></div>
+
+  <!-- FIXED HEADER ========================================== -->
+  <header class="">
+    <menu class="navbar">
+      <logo alt="Bank Of America"></logo><span class="title notextselect">Grocery Code&nbsp;Challenge</span>
+      <div class="filter-bar">
+        <input class="filter-field" type="text" onkeydown="filterEnter(event);" placeholder="Global Search" aria-label="Global Search Field"><button class="filter-button" onclick="filterItems();" aria-label="Filter Button">&#x25bc;</button>
+      </div>
+    </menu>
+  </header>
+
+  <!-- MAIN ================================================== -->
+  <section class="main">
+    <div class="header-spacer" role="presentation"></div>
+    <div class="container"></div>
+    <div class="footer-spacer" role="presentation"></div>
+  </section>
+
+  <!-- FOOTER ================================================ -->
+  <footer>
+    <div style="text-align:center;">
+      <span class="social-link-label">Follow Me</span><br>
+      <a class="social-link" href="https://www.linkedin.com/in/michael-oakley-7b01328/" target="_blank"><img class="social-img-linkedin" src="./images/social/linkedin_icon.png" alt="Linked In"></a>
+    </div>
+    <hr>
+    <div class="subfooter">
+      <span class="subfooter-notice"><b>Designed&nbsp;&amp;&nbsp;Developed&nbsp;by:</b> Michael&nbsp;K&nbsp;Oaklry</span>
+    </div>
+    <div class="backToTop" role="presentation"><button class="backToTop-button fadeout" onclick="backToTop();" aria-label="Back to Top">&#x25b2;</button></div>
+  </footer>
+
+  <div class="umbrella" role="presentation"></div>
+
+</body>
+</html>
