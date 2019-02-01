@@ -6,7 +6,7 @@
     font-size:36px;
   }
 
-  .container {
+  div.container {
     grid-template-columns:repeat(auto-fill, minmax(150px,300px));
     justify-content:center;
   }
@@ -17,30 +17,30 @@
 
 /* Extra Large Devices, Wide Screens */
 @media only screen and (max-width : 1024px) {
-
   header>menu.navbar>.title{
     font-size:36px;
   }
 
-  .container {
+  div.container {
     grid-template-columns:repeat(auto-fill, minmax(150px,300px));
     justify-content:center;
   }
+
 
 
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
-
   header>menu.navbar>.title{
     font-size:30px;
   }
 
-  .container {
+  div.container {
     grid-template-columns:repeat(auto-fill, minmax(150px,500px));
     justify-content:center;
   }
+
 
 
 }

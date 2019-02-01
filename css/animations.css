@@ -35,6 +35,7 @@
    100% {opacity:1;filter:blur(0px);}
 }
 
+/* fadeout */
 .fadeout {
   opacity:1;
   -webkit-animation-duration:1s;

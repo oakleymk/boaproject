@@ -31,6 +31,7 @@ function buildItems(data){if(document.loaded){
   }
 }}
 
+// filterItems ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 function filterItems(ftype){if(document.loaded){
   var filter=document.getElementsByClassName("filter-field")[0].value;
 
@@ -45,9 +46,7 @@ function filterItems(ftype){if(document.loaded){
   buildItems(fdata);
 }}
 
-
-
-
+// filterEnter - catch [enter] and filter items ~~~~
 function filterEnter(e){
   e=window.event||e;e=e.which||e.keyCode;
   if(e==13){
@@ -56,18 +55,19 @@ function filterEnter(e){
   }
 };
 
+// filterFieldFocus ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 function filterFieldFocus(){if(document.loaded){
   document.getElementsByClassName("container")[0].classList.add("blur");
   document.getElementsByClassName("umbrella")[0].classList.add("dim");
 }}
 
+// filterFieldBlur ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 function filterFieldBlur(){if(document.loaded){
   document.getElementsByClassName("container")[0].classList.remove("blur");
   document.getElementsByClassName("umbrella")[0].classList.remove("dim");
 }}
 
-
-
+// backToTop ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 function backToTop() {
   document.getElementsByClassName("main")[0].scrollTop=0;
 }
